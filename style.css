@@ -1,0 +1,43 @@
+#container {
+  display:none;  
+  grid-template: 100px 100px 100px / 100px 100px 100px;
+}
+
+#inputs {
+display:flex;
+}
+
+.item {
+  display:flex;
+  justify-content: center;
+  align-items: center;    
+  border-style: solid;
+  border-width: thin;
+  font-size: 80px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;    
+    
+}
+
+#winner {
+padding-left: 75px;
+display:flex;
+justify-content: flex-start;
+}
+
